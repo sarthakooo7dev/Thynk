@@ -1,8 +1,20 @@
-# React + Vite
+# Thynk
+👉 [Visit Thynk AI](https://thynk-ai.netlify.app/)
+Thynk is an AI-powered tool designed to map your subconscious thoughts by analyzing your journals and providing insightful, interactive visualizations. By leveraging advanced AI techniques, Thynk helps you uncover patterns, connections, and hidden insights from your daily reflections.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 🚀 Features
+- **Interactive Mind Mapping**: Visually represents your thoughts and their connections.
+- **Keyword Highlighting**: Identifies important words and recurring topics.
+- **Seamless Journaling**: Intuitive interface for effortless writing and exploration.
 
-Currently, two official plugins are available:
+## 🛠️ Tech Stack
+- **Frontend**: React,Gsap,React-Quill
+- **AI Processing**: LLama
+- **Data Visualization**: React-Flow
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📖 How It Works
+1. **Write Your Journal**: Enter your daily thoughts in a simple, distraction-free interface.
+2. **Insight Mapping**: Generates an interactive map of your thoughts.
+
+## 📬 Contact
+For any queries or collaboration opportunities, reach out at **sarthak.shukla007@gmail.com**.
