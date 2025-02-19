@@ -27,8 +27,6 @@ const Sidebar = ({ isOpen, setIsOpen, listItems, HandleAddItem, optionVal, setOp
               return (
                 <div className={`lst_item ${val.id == optionVal ? "lst_select" : ""}`} key={val.id} onClick={() => handleSelect(val.id)}>
                   <FaFileAlt /> {val.title} <VscChromeClose style={{
-
-                    fontSize: "18px",
                     cursor: "pointer",
                     fontSize: '20px'
                   }} onClick={(e) => {
