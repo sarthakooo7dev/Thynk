@@ -1,5 +1,6 @@
-# Thynk
-👉 [Visit Thynk AI](https://thynk-ai.netlify.app/)
+# Thynk 
+👉 [Try Thynk AI Now!](https://thynk-ai.netlify.app/)
+
 Thynk is an AI-powered tool designed to map your subconscious thoughts by analyzing your journals and providing insightful, interactive visualizations. By leveraging advanced AI techniques, Thynk helps you uncover patterns, connections, and hidden insights from your daily reflections.
 
 ## 🚀 Features
