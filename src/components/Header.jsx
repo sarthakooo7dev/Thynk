@@ -1,5 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react'
-import LOGO from '../assets/Logo.png'
+import LOGO from '../assets/logo.png'
 import { IoRocketSharp } from 'react-icons/io5'
 import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
@@ -51,9 +51,8 @@ const Header = () => {
   return (
     <header
       ref={headerRef}
-      className={` ${
-        isScrolled ? 'hdr_cntnt  flex scrollActive ' : 'hdr_cntnt  flex '
-      }`}
+      className={` ${isScrolled ? 'hdr_cntnt  flex scrollActive ' : 'hdr_cntnt  flex '
+        }`}
     >
       <div className="img_cntr flex">
         <img ref={logoRef} src={LOGO} className=""></img>
