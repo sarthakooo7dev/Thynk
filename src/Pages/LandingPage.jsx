@@ -14,7 +14,8 @@ const LandingPage = () => {
   const [isActive, setIsActive] = useState(false)
   const infoRef = useRef(null)
   const [isLoading, setIsLoading] = useState(true)
-
+  const [showMobilePopup, setShowMobilePopup] = useState(false)
+  
   useGSAP(() => {
     // First animation (height) then opacity
     gsap.fromTo(
@@ -38,6 +39,11 @@ const LandingPage = () => {
     setTimeout(() => {
       setIsLoading(false)
     }, 1500)
+
+     // Detect if the user is on a mobile device
+    if (window.innerWidth <= 768) {
+      setShowMobilePopup(true)
+    }
   }, [])
 
   return (
@@ -94,6 +100,16 @@ const LandingPage = () => {
                 </div>
               </section>
             </main>
+          </div>
+        </div>
+      )}
+
+      
+      {showMobilePopup && (
+        <div className="popup-overlay">
+          <div className="popup">
+            <p>This app is best experienced on a desktop.</p>
+            <button className='btn_seeMore' onClick={() => setShowMobilePopup(false)}>Close</button>
           </div>
         </div>
       )}
